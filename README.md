@@ -15,21 +15,7 @@ A powerful browser extension for Chrome/Edge that blocks distracting websites to
 
 ## Installation
 
-### Step 1: Generate Icon Files
-
-The extension requires PNG icon files in three sizes. Use the provided Python script:
-
-```bash
-pip install Pillow
-python generate-icons.py
-```
-
-This creates:
-- `icon-16.png` (16×16 pixels)
-- `icon-48.png` (48×48 pixels)
-- `icon-128.png` (128×128 pixels)
-
-### Step 2: Prepare the Extension Files
+### Step 1: Prepare the Extension Files
 
 1. Create a folder called `ProductivityBlocker` on your computer
 2. Copy these files into that folder:
@@ -41,7 +27,7 @@ This creates:
    - `icon-48.png` (generated from Step 1)
    - `icon-128.png` (generated from Step 1)
 
-### Step 3: Load the Extension in Chrome/Edge
+### Step 2: Load the Extension in Chrome/Edge
 
 1. Open Chrome or Edge
 2. Go to `chrome://extensions/` or `edge://extensions/`
@@ -50,7 +36,7 @@ This creates:
 5. Select your `ProductivityBlocker` folder
 6. The extension is now installed! 🎉
 
-### Step 4: Pin the Extension (Optional)
+### Step 3: Pin the Extension (Optional)
 
 1. Click the **Extensions icon** (puzzle piece) in the toolbar
 2. Find "Productivity Blocker"
