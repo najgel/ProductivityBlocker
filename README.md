@@ -23,9 +23,11 @@ A powerful browser extension for Chrome/Edge that blocks distracting websites to
    - `popup.html`
    - `popup.js`
    - `background.js`
-   - `icon-16.png` (generated from Step 1)
-   - `icon-48.png` (generated from Step 1)
-   - `icon-128.png` (generated from Step 1)
+3. Create a subfolder called `icons`
+4. Copy these files into that folder:
+   - `icon-16.png`
+   - `icon-48.png`
+   - `icon-128.png`
 
 ### Step 2: Load the Extension in Chrome/Edge
 
